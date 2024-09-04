@@ -39,11 +39,13 @@ excel_df.head()
 
 ## Learn more
 
-{{< spoiler text="How to import data from github?" >}}
-Open the file location on GitHub, `view raw` and copy the link into clipboard.
+### How to import data from github?
+
+Open the file location on GitHub, select `View Raw` and copy the link into clipboard.
+
 ```python
 github_filepath = 'raw_link_copied.csv'
 github_df = pd.read_csv(github_filepath)
 github_df.head()
 ```
-{{< /spoiler >}}
+
