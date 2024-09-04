@@ -1,8 +1,8 @@
 ---
-title: 📊 Learn Data Science
+title: 📊 Learn Data Science Skills
 linkTitle: Data Science
 summary: An example of using Wowchemy's Book layout for publishing online courses.
-date: '2021-01-24'
+date: '2024-09-04'
 type: book
 tags:
   - current
