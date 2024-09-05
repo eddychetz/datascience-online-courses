@@ -4,6 +4,7 @@ date: '2024-09-04'
 type: book
 weight: 20
 ---
+
 Build a foundation in Python by learning how to import data into your workspace.
 
 <!--more-->
@@ -16,7 +17,7 @@ Build a foundation in Python by learning how to import data into your workspace.
 
 ## Quiz
 
-{{< spoiler text="1. Import data from CSV file using pandas?" >}}
+{{< spoiler text="Import data from CSV file using pandas?" >}}
 
 ```python
 import pandas as pd
@@ -25,17 +26,6 @@ csv_df = pd.read_csv(file_path)
 csv_df.head()
 ```
 
-{{< /spoiler >}}
-
-
-{{< spoiler text="2. Import data from excel file using pandas?" >}}
-
-```python
-import pandas as pd
-file_path = '.../.../excel_file.xlsx'
-excel_df = pd.read_excel(file_path)
-excel_df.head()
-```
 {{< /spoiler >}}
 
 ## Learn more
